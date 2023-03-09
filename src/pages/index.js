@@ -8,23 +8,23 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Coming May 2023!!</h1>
+    <p>By Nayhon Lee and Marshall Illif</p>
+    <p>Illustrated by Lucy Shin</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/cover.png"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
+      style={{ marginBottom: `1.45rem` },{ float: `right` }}
     />
-    <p>
+    {/*<p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
       <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
       <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
+    </p>*/}
   </Layout>
 )
 
