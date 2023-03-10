@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>Coming May 2023!!</h1>
-    <p>By Nayhon Lee and Marshall Illif</p>
+    <p>By Nahyon Lee and Marshall Illif</p>
     <p>Illustrated by Lucy Shin</p>
     <StaticImage
       src="../images/cover.png"
