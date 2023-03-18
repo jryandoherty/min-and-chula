@@ -4,12 +4,14 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
+  color:#333;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -18,6 +20,11 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  font-family: "stymie", serif;
+font-weight: 400;
+font-style: normal;
+background:#EBB052;
+
 }
 article,
 aside,
@@ -81,11 +88,12 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "canvas-script", sans-serif;
+font-weight: 200;
+font-style: normal;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 4.25rem;
   line-height: 1.1;
 }
 mark {
@@ -260,8 +268,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "stymie", serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -277,8 +284,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "stymie", serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -594,4 +600,73 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.fixed-image {
+  background:url(../images/Page_26.jpg)fixed;
+  background-size:cover;
+  background-position:-50%;
+
+  height:400px;
+  width:100%;
+  border-top:3px solid #333;
+  border-bottom:5px solid #333;
+}
+
+.fixed-image-2 {
+  background:url(../images/Page_22.jpg)fixed;
+  background-size:cover;
+  background-position:-50%;
+
+  height:400px;
+  width:100%;
+  border-top:3px solid #333;
+  border-bottom:5px solid #333;
+}
+
+
+
+
+
+.rei {
+  width:76px;
+  height:48px;
+}
+
+.link-section img {
+  max-width:150px;
+}
+
+.smaller {
+  font-size:.5em;
+  margin-top:-30px;
+}
+
+
+h1  {
+  color:#234f4c;
+}
+h2, h3 {
+  margin-top:0;
+  color:#2e2916;
+}
+
+nav {
+  max-width:1170px;
+  margin:30px auto;
+  text-align:right;
+}
+
+nav a {
+font-size:2em;
+  text-decoration:none;
+  border-bottom: 2px solid #ef8b80;
+  box-shadow: inset 0 -4px 0 #ef8b80;
+  color: inherit;
+  transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+  margin-left:2em;
+}
+
+nav a:hover {
+ background: #ef8b80;
 }
