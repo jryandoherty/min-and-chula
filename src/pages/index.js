@@ -86,7 +86,7 @@ const IndexPage = () => (
     <StaticImage
       src="../images/IMG_1995.jpg"
       width={400}
-      quality={95}
+      quality={85}
       formats={["auto", "webp", "jpg"]}
       alt="family"
       class="family"
@@ -104,14 +104,14 @@ const IndexPage = () => (
 <StaticImage
   src="../images/IMG_1470.jpg"
   width={300}
-  quality={95}
+  quality={85}
   formats={["auto", "webp"]}
   alt="min"
 />
 <StaticImage
   src="../images/marshall.jpg"
   width={300}
-  quality={95}
+  quality={85}
   formats={["auto", "webp"]}
   alt="marshall"
 
@@ -119,10 +119,10 @@ const IndexPage = () => (
 <StaticImage
   src="../images/nahyon.jpg"
   width={300}
-  quality={95}
+  quality={85}
   formats={["auto", "webp"]}
   alt="nahyon"
-  
+
 />
 
 
