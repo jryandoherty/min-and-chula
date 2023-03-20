@@ -43,17 +43,21 @@ const Layout = ({ children }) => {
         <main>{children}</main>
 
         <footer
+
+        className="sunset"
           style={{
-            marginTop: `2rem`,
-            background:`#1b4f6f`,
-            padding:`10`,
+
+            background:`#fe7001`,
+            padding:`30px`,
             color:`#fff`,
+            textAlign:`center`,
           }}
+
         >
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-          <a href="https://www.jryandoherty.com">J. Ryan Doherty Design</a>
+          <a href="https://www.gatsbyjs.com">Gatsby</a> ||
+          Site design: <a href="https://www.jryandoherty.com">J. Ryan Doherty Design</a>
         </footer>
       </div>
     </>
