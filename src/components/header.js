@@ -15,8 +15,8 @@ const Header = ({ siteTitle }) => (
     >
     <nav>
 
-      <Link to="#bio">OUR STORY</Link>
-      <Link to="#link-section">GET OUTSIDE!</Link>
+      <Link to="#bio">Our Story</Link>
+      <Link to="#link-section">Get Outside!</Link>
 
     </nav>
 
