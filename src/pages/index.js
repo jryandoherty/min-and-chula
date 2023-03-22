@@ -17,16 +17,12 @@ const IndexPage = () => (
   maxWidth: 1170,
   padding: `0 1.0875rem 1.45rem`,
   margin: `0 auto`,
+  background:`url()no-repeat`,
 
 }}>
 
 
-<div  style={{
-  display: `flex`,
-  flexDirection: `row`,
-  marginTop:`4rem`,
-  marginBottom:`4rem`,
-}}>
+<div className="top-section">
 
 
     <StaticImage
@@ -34,29 +30,14 @@ const IndexPage = () => (
       width={500}
       quality={100}
       formats={["png", "webp"]}
+      class="book-cover"
       alt="book"
       />
 
 
-    <div style={{
-
-      padding: `0 0 1.45rem 1.45rem`,
-      display: `flex`,
-      flexDirection: `column`,
-      width:`75%`,
-
-    }}>
-
-
-
+    <div className="top-section-text">
 
     <h1>MIN <span className="smaller">AND THE</span> <br />DANCING CACTUS</h1>
-
-
-
-
-
-
     <h2>By Nahyon Lee and Marshall Illif</h2>
     <h3>Illustrated by Lucy Shin</h3>
 
@@ -72,15 +53,15 @@ const IndexPage = () => (
 
 </div>
 
-    <div className="fixed-image"></div>
+<div className="fixed-image"></div>
 
     <div id="bio">
 
     <div style={{
-      background: `#EBB052`,
+
       maxWidth: 968,
-      padding: `0 1.0875rem 1.45rem`,
-      margin: `3rem auto`,
+      padding: `0 1.0875rem 8.45rem`,
+      margin: `3rem auto 0`,
 
     }}>
     <StaticImage
@@ -101,12 +82,14 @@ const IndexPage = () => (
 
 <p>In their years together, Nahyon and Marshall have traveled as much as possible, including three cross-country road trips, a Pacific Coast Highway roadtrip from Los Angeles, California to Victoria, Canada, a trip way down the Baja California Peninsula, and two road-trips throughout Canada. They have traveled to over fifty countries and continue to explore the world as much as they can with their son and dogs. They currently live in the Boston area, USA. </p>
 
+<div className="bio-photos">
 <StaticImage
-  src="../images/IMG_1470.jpg"
+  src="../images/IMG_5238.jpg"
   width={300}
   quality={85}
   formats={["auto", "webp"]}
   alt="min"
+  style={{marginRight:`.5rem`}}
 />
 <StaticImage
   src="../images/marshall.jpg"
@@ -114,7 +97,7 @@ const IndexPage = () => (
   quality={85}
   formats={["auto", "webp"]}
   alt="marshall"
-
+  style={{marginRight:`.5rem`}}
 />
 <StaticImage
   src="../images/nahyon.jpg"
@@ -122,15 +105,12 @@ const IndexPage = () => (
   quality={85}
   formats={["auto", "webp"]}
   alt="nahyon"
-
 />
+</div>
 
+</div>{/* end container  */ }
 
-
-    </div>
-
-
-    </div>
+</div>{/* end bio */ }
 
 
 <div className="fixed-image-2"></div>
@@ -174,32 +154,27 @@ const IndexPage = () => (
 
 <div className="link-sub">
 
-<div><Link to="https://www.rei.com/learn/expert-advice/camping-kids.html" target="_blank"><StaticImage
-  src="../images/rei-coop.png"
-  width={200}
-  alt="min"
+<div><Link to="https://www.rei.com/learn/expert-advice/camping-kids.html" target="_blank"><StaticImage src="../images/rei-coop.png" alt="REI"/>Camping with Kids</Link></div>
 
-/>Camping with Kids</Link></div>
+<div><Link to="https://merlin.allaboutbirds.org/" target="_blank"><StaticImage src="../images/cornell.png" alt="Merlin"/>Learn Bird Idenfication</Link></div>
 
-<div><Link to="https://merlin.allaboutbirds.org/" target="_blank"><img src="https://merlin.allaboutbirds.org/wp-content/themes/birdpress2/images/cornell-lab-logo.svg" alt="Merlin" />Learn Bird Idenfication</Link></div>
+<div><Link to="https://inaturalist.org" target="_blank"><StaticImage src="../images/inaturalist.png" alt="iNaturalist"/>Record you observations</Link></div>
 
-<div><Link to="https://inaturalist.org" target="_blank"><img src="https://static.inaturalist.org/sites/1-logo.svg?1573071870" alt="iNaturalist" />Record you observations</Link></div>
-
-<div><Link to="https://www.outwardbound.org" target="_blank"><img src="https://www.outwardbound.org/media/images/ob_logo-white.svg" alt="Outward Bound" />Outward Bound</Link></div>
+<div><Link to="https://www.outwardbound.org" target="_blank"><StaticImage src="../images/outwardbound.png" alt="Outward Bound" />Outward Bound</Link></div>
 
 </div>
 
-<h2>Why the outdoors is good for kids articles:</h2>
+<h2>How the outdoors benefits kids:</h2>
 <div className="link-sub">
 
 
-<div><Link to="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/youth-engagement/benefits-of-outdoors-for-kids/" target="_blank"><img src="https://www.nature.org/content/dam/tnc/nature/en/logos/tnc-logo-primary-registered-dark-text.svg" alt="nature" />Why the outdoors is good for kids</Link></div>
+<div><Link to="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/youth-engagement/benefits-of-outdoors-for-kids/" target="_blank"><StaticImage src="../images/natureconservancy.png" alt="Nature Conservancy"/>Getting kids outside</Link></div>
 
-<div><Link to="https://www.scholastic.com/parents/family-life/parent-child/why-kids-need-nature.html" target="_blank"><img src="https://www.scholastic.com/content/dam/corp-home/asset.jpg/scholastic-logo-red-bar-white-outline.svg" alt="nature" />Why Kids Need Nature</Link></div>
+<div><Link to="https://www.scholastic.com/parents/family-life/parent-child/why-kids-need-nature.html" target="_blank"><StaticImage src="../images/scholastic.png" alt="Schoolastic"/>Why Kids Need Nature</Link></div>
 
-<div><Link to="https://www.outdoors.org/resources/amc-outdoors/outdoor-resources/10-backyard-nature-activities-for-kids/" target="_blank"><img src="https://d2unygt1zlrln3.cloudfront.net/images/AMC_MainLockup@2x.png" alt="nature" />Backyard activities for kids</Link></div>
+<div><Link to="https://www.outdoors.org/resources/amc-outdoors/outdoor-resources/10-backyard-nature-activities-for-kids/" target="_blank"><StaticImage src="../images/amc.png" alt="Be Outdoors - AMC MTN Club"/>10 Backyard Nature Activities for Kids</Link></div>
 
- <div><Link to="https://www.pbs.org/parents/observing-nature" target="_blank"><img src="https://cms-tc.pbskids.org/globalresources/resources/img/pbs-kids-for-parents-logo-reverse.svg?fhash=8629950" alt="nature" />Observing Nature</Link></div>
+ <div><Link to="https://www.pbs.org/parents/observing-nature" target="_blank"><StaticImage src="../images/pbs.png" alt="PBS kids"/>Observing Nature</Link></div>
 
 
 </div> {/* end outdoors for kids */ }
@@ -207,6 +182,8 @@ const IndexPage = () => (
 </div> {/* end link section */ }
 
 </div>{/* end sunset */ }
+
+
 </Layout>
 
 

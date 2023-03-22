@@ -43,10 +43,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
 
         <footer
-
-        className="sunset"
           style={{
-
             background:`#fe7001`,
             padding:`30px`,
             color:`#fff`,
@@ -54,10 +51,10 @@ const Layout = ({ children }) => {
           }}
 
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a> ||
-          Site design: <a href="https://www.jryandoherty.com">J. Ryan Doherty Design</a>
+          site design: <a href="https://www.jryandoherty.com">J. Ryan Doherty Design</a>
         </footer>
       </div>
     </>

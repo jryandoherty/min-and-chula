@@ -3,11 +3,8 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#71743A`,
+  <header className="stars"
 
-    }}
   >
     <div
       style={{
@@ -19,7 +16,7 @@ const Header = ({ siteTitle }) => (
     <nav>
 
       <Link to="#bio">OUR STORY</Link>
-      <Link to="#link-section">GET OUTSIDE</Link>
+      <Link to="#link-section">GET OUTSIDE!</Link>
 
     </nav>
 
