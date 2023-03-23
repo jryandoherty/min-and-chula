@@ -603,7 +603,8 @@ pre tt:after {
 
 
 header {
-  background:url(../images/stars.png)repeat-x top #1b4f6f;
+  background:url(../images/stars-moon.png)no-repeat 10%,url(../images/stars.png)no-repeat 90%, linear-gradient(#1b4f6f 75%, #905cc5) ;
+  padding:10px 0;
 }
 
 .top-section{
@@ -773,7 +774,7 @@ nav a:hover, nav a:active {
 }
 
 nav a:first-child:hover {
-  background: url(../images/diary-white.png)no-repeat #6683b2;
+  background: url(../images/diary-white.png)no-repeat #28bcf9;
   background-size:30px;
   border-radius:44px;
   transition: .4s ease-in ;
@@ -783,7 +784,7 @@ nav a:first-child:hover {
 }
 
 nav a:last-child:hover {
-  background: url(../images/cactus-nav.png)no-repeat #6683b2;
+  background: url(../images/cactus-nav.png)no-repeat #28bcf9;
   background-size:40px;
   border-radius:44px;
   transition: .4s ease-in ;
@@ -836,7 +837,7 @@ nav a:last-child:hover {
 
 .family {
   margin: 20px 0 20px 40px;
-  border:7px solid #1b4f6f;
+  border:7px solid #000;
   padding:0;
 }
 
