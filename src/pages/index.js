@@ -22,6 +22,7 @@ const IndexPage = () => (
 
 <div className="top-section">
 
+    <Link to="https://www.amazon.com/dp/B0BZ9X9YR6/ref=sr_1_1?keywords=nahyon+lee&qid=1679534170&sr=8-1" target="_blank">
     <StaticImage
       src="../images/book-cover.png"
       width={500}
@@ -30,7 +31,7 @@ const IndexPage = () => (
       class="book-cover"
       alt="book"
       />
-
+      </Link>
 
     <div className="top-section-text">
 
@@ -148,7 +149,6 @@ style={{width:256}}
 <h2>Outdoor activities:</h2>
 
 <div className="link-sub">
-
 <Link to="https://www.rei.com/learn/expert-advice/camping-kids.html" target="_blank"><StaticImage src="../images/rei-coop.png" alt="REI"/><div>Camping with Kids</div></Link>
 
 <Link to="https://merlin.allaboutbirds.org/" target="_blank"><StaticImage src="../images/cornell.png" alt="Merlin"/><div>Learn Bird Idenfication</div></Link>

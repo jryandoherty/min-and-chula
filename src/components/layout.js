@@ -46,15 +46,16 @@ const Layout = ({ children }) => {
           style={{
             background:`#fe7001`,
             padding:`30px`,
+            paddingTop:`0`,
             color:`#fff`,
             textAlign:`center`,
           }}
 
         >
-          © {new Date().getFullYear()}, built with
+          <p>© {new Date().getFullYear()}, built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a> ||
-          site design: <a href="https://www.jryandoherty.com">J. Ryan Doherty Design</a>
+          <a href="https://www.gatsbyjs.com">Gatsby</a></p>
+          <p>site design: <a href="https://www.jryandoherty.com">J. Ryan Doherty Design</a></p>
         </footer>
       </div>
     </>
