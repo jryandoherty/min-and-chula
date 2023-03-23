@@ -7,17 +7,16 @@ import Seo from "../components/seo"
 import Sticker from "../components/sticker"
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
 
-    <div style={{
+<Layout>
+<Seo title="Home" />
 
-      maxWidth: 1170,
-      padding: `0 1.0875rem 1.45rem`,
-      margin: `0 auto`,
-      background:`url()no-repeat`,
-
-    }}>
+<div style={{
+  maxWidth: 1170,
+  padding: `0 1.0875rem 1.45rem`,
+  margin: `0 auto`,
+  background:`url()no-repeat`,
+}}>
 
 
 <div className="top-section">
@@ -35,41 +34,40 @@ const IndexPage = () => (
 
     <div className="top-section-text">
 
-    <h1>MIN <span className="smaller">AND THE</span> <br />DANCING CACTUS</h1>
-    <h2>By Nahyon Lee and Marshall Illif</h2>
-    <h3>Illustrated by Lucy Shin</h3>
+      <h1>MIN <span className="smaller">AND THE</span> <br />DANCING CACTUS</h1>
+      <h2>By Nahyon Lee and Marshall Iliff</h2>
+      <h3>Illustrated by Lucy Shin</h3>
+      <p>
+      <Sticker />
+      Our hope in writing this book is to help our kids, families, and adults reconnect with the wonders of the natural world. In the past decades, we've seen society drift more and more into the metaverse and our mission is to remind all of us to appreciate the wonders of nature that are often right outside our door. With more reliance on technology and the ever increasing pace of life, it is even more vital that our children actively engage with the natural world, benefit from its restorative effects on mental and physical health, and see the magic that exists there. </p>
 
-    <p>
-    <Sticker />
-    Our hope in writing this book is to help our kids, families, and adults reconnect with the wonders of the natural world. In the past decades, we've seen society drift more and more into the metaverse and our mission is to remind all of us to appreciate the wonders of nature that are often right outside our door. With more reliance on technology and the ever increasing pace of life, it is even more vital that our children actively engage with the natural world, benefit from its restorative effects on mental and physical health, and see the magic that exists there. </p>
+      <p>We hope that Min and Chula's adventures wow and fascinate us with the place we all call home and do what we can to protect, preserve, and restore it.</p>
 
-    <p>We hope that Min and Chula's adventures wow and fascinate us with the place we all call home and do what we can to protect, preserve, and restore it.</p>
+    </div>{/* end top-section-text  */ }
 
-    </div>
-</div>
+</div>{/* end top-section */ }
 
-
-</div>
+</div>{/* end container */ }
 
 <div className="fixed-image"></div>
 
-    <div id="bio">
+<div id="bio">
 
-    <div style={{
-      maxWidth: 968,
-      padding: `0 1.0875rem 8.45rem`,
-      margin: `3rem auto 0`,
+<div style={{
+  maxWidth: 968,
+  padding: `0 1.0875rem 8.45rem`,
+  margin: `3rem auto 0`,
 
-    }}>
-    <StaticImage
-      src="../images/IMG_1995.jpg"
-      width={400}
-      quality={85}
-      formats={["auto", "webp", "jpg"]}
-      alt="family"
-      class="family"
-      style={{float:`right`}}
-    />
+}}>
+<StaticImage
+  src="../images/IMG_1995.jpg"
+  width={400}
+  quality={85}
+  formats={["auto", "webp", "jpg"]}
+  alt="family"
+  class="family"
+  style={{float:`right`}}
+/>
 
 <h1>Our Story</h1>
 <p>Nahyon and Marshall met in their first year of Bowdoin College. </p>
@@ -80,30 +78,30 @@ const IndexPage = () => (
 <p>In their years together, Nahyon and Marshall have traveled as much as possible, including three cross-country road trips, a Pacific Coast Highway roadtrip from Los Angeles, California to Victoria, Canada, a trip way down the Baja California Peninsula, and two road-trips throughout Canada. They have traveled to over fifty countries and continue to explore the world as much as they can with their son and dogs. They currently live in the Boston area, USA. </p>
 
 <div className="bio-photos">
-<StaticImage
-  src="../images/IMG_5238.jpg"
-  width={300}
-  quality={85}
-  formats={["auto", "webp"]}
-  alt="min"
-  style={{marginRight:`.5rem`}}
-/>
-<StaticImage
-  src="../images/marshall.jpg"
-  width={300}
-  quality={85}
-  formats={["auto", "webp"]}
-  alt="marshall"
-  style={{marginRight:`.5rem`}}
-/>
-<StaticImage
-  src="../images/nahyon.jpg"
-  width={300}
-  quality={85}
-  formats={["auto", "webp"]}
-  alt="nahyon"
-/>
-</div>
+  <StaticImage
+    src="../images/IMG_5238.jpg"
+    width={300}
+    quality={85}
+    formats={["auto", "webp"]}
+    alt="min"
+    style={{marginRight:`.5rem`}}
+  />
+  <StaticImage
+    src="../images/marshall.jpg"
+    width={300}
+    quality={85}
+    formats={["auto", "webp"]}
+    alt="marshall"
+    style={{marginRight:`.5rem`}}
+  />
+  <StaticImage
+    src="../images/nahyon.jpg"
+    width={300}
+    quality={85}
+    formats={["auto", "webp"]}
+    alt="nahyon"
+  />
+</div>{/* end bio-photos  */ }
 
 </div>{/* end container  */ }
 
@@ -118,7 +116,6 @@ const IndexPage = () => (
   maxWidth: 968,
   padding: `3rem 1.0875rem 1.45rem`,
   margin: `0 auto`,
-
 }}>
 
 <h1>Get Outside!</h1>
@@ -126,58 +123,50 @@ const IndexPage = () => (
 <div className="nps-section">
 
   <div className="nps-logo">
-
-<StaticImage
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/US-NationalParkService-Logo.svg/256px-US-NationalParkService-Logo.svg.png"
-alt="US-NationalParkService-Logo"
-title="U.S. government, National Park Service, Public domain, via Wikimedia Commons"
-style={{width:256}}
-
-/>
-
+    <StaticImage
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/US-NationalParkService-Logo.svg/256px-US-NationalParkService-Logo.svg.png"
+    alt="US-NationalParkService-Logo"
+    title="U.S. government, National Park Service, Public domain, via Wikimedia Commons"
+    />
   </div>
 
   <div>
-  <h3> Helpful links from the National Park Service</h3>
-  <Link to="https://www.nps.gov/orpi/index.htm" target="_blank">Organ Pipe Cactus National Park</Link><br/>
-  <Link to="https://www.nps.gov/subjects/camping/camping-with-kids.htm" target="_blank">Camping with Kids (from NPS)</Link><br/>
-  <Link to="https://www.nps.gov/findapark/index.htm" target="_blank">How to find national parks in your state</Link><br/>
-  <Link to="https://www.nps.gov/subjects/camping/campground.htm" target="_blank">Finding a campground from NPS</Link><br/>
+    <h3> Helpful links from the National Park Service</h3>
+    <Link to="https://www.nps.gov/orpi/index.htm" target="_blank">Organ Pipe Cactus National Park</Link><br/>
+    <Link to="https://www.nps.gov/subjects/camping/camping-with-kids.htm" target="_blank">Camping with Kids (from NPS)</Link><br/>
+    <Link to="https://www.nps.gov/findapark/index.htm" target="_blank">How to find national parks in your state</Link><br/>
+    <Link to="https://www.nps.gov/subjects/camping/campground.htm" target="_blank">Finding a campground from NPS</Link><br/>
   </div>
 </div>{/* end nps section */ }
 
 <h2>Outdoor activities:</h2>
 
-<div className="link-sub">
-<Link to="https://www.rei.com/learn/expert-advice/camping-kids.html" target="_blank"><StaticImage src="../images/rei-coop.png" alt="REI"/><div>Camping with Kids</div></Link>
+  <div className="link-sub">
+    <Link to="https://www.rei.com/learn/expert-advice/camping-kids.html" target="_blank"><StaticImage src="../images/rei-coop.png" alt="REI"/><div>Camping with Kids</div></Link>
 
-<Link to="https://merlin.allaboutbirds.org/" target="_blank"><StaticImage src="../images/cornell.png" alt="Merlin"/><div>Learn Bird Idenfication</div></Link>
+    <Link to="https://merlin.allaboutbirds.org/" target="_blank"><StaticImage src="../images/cornell.png" alt="Merlin"/><div>Learn Bird Idenfication</div></Link>
 
-<Link to="https://inaturalist.org" target="_blank"><StaticImage src="../images/inaturalist.png" alt="iNaturalist"/><div>Record you observations</div></Link>
+    <Link to="https://inaturalist.org" target="_blank"><StaticImage src="../images/inaturalist.png" alt="iNaturalist"/><div>Record your observations</div></Link>
 
-<Link to="https://www.outwardbound.org" target="_blank"><StaticImage src="../images/outwardbound.png" alt="Outward Bound" /><div>Outward Bound</div></Link>
+    <Link to="https://www.outwardbound.org" target="_blank"><StaticImage src="../images/outwardbound.png" alt="Outward Bound" /><div>Outward Bound</div></Link>
 
-</div>{/* end outdoor  */ }
+  </div>{/* end outdoor  */ }
 
 <h2>How the outdoors benefits kids:</h2>
-<div className="link-sub">
+  <div className="link-sub">
+    <Link to="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/youth-engagement/benefits-of-outdoors-for-kids/" target="_blank"><StaticImage src="../images/natureconservancy.png" alt="Nature Conservancy"/><div>Getting kids outside</div></Link>
 
+    <Link to="https://www.scholastic.com/parents/family-life/parent-child/why-kids-need-nature.html" target="_blank"><StaticImage src="../images/scholastic.png" alt="Schoolastic"/><div>Why Kids Need Nature</div></Link>
 
-<Link to="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/youth-engagement/benefits-of-outdoors-for-kids/" target="_blank"><StaticImage src="../images/natureconservancy.png" alt="Nature Conservancy"/><div>Getting kids outside</div></Link>
+    <Link to="https://www.outdoors.org/resources/amc-outdoors/outdoor-resources/10-backyard-nature-activities-for-kids/" target="_blank"><StaticImage src="../images/amc.png" alt="Be Outdoors - AMC MTN Club"/><div>10 Backyard Nature Activities for Kids</div></Link>
 
-<Link to="https://www.scholastic.com/parents/family-life/parent-child/why-kids-need-nature.html" target="_blank"><StaticImage src="../images/scholastic.png" alt="Schoolastic"/><div>Why Kids Need Nature</div></Link>
+    <Link to="https://www.pbs.org/parents/observing-nature" target="_blank"><StaticImage src="../images/pbs.png" alt="PBS kids"/><div>Observing Nature</div></Link>
 
-<Link to="https://www.outdoors.org/resources/amc-outdoors/outdoor-resources/10-backyard-nature-activities-for-kids/" target="_blank"><StaticImage src="../images/amc.png" alt="Be Outdoors - AMC MTN Club"/><div>10 Backyard Nature Activities for Kids</div></Link>
-
-<Link to="https://www.pbs.org/parents/observing-nature" target="_blank"><StaticImage src="../images/pbs.png" alt="PBS kids"/><div>Observing Nature</div></Link>
-
-
-</div> {/* end outdoors for kids */ }
+  </div> {/* end outdoors for kids */ }
 
 </div> {/* end link section */ }
 
 </div>{/* end sunset */ }
-
 
 </Layout>
 
