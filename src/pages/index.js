@@ -29,6 +29,8 @@ const IndexPage = () => (
       formats={["png", "webp"]}
       class="book-cover"
       alt="book"
+      placeholder="blurred"
+
       />
       </Link>
 
@@ -66,6 +68,7 @@ const IndexPage = () => (
   formats={["auto", "webp", "jpg"]}
   alt="family"
   class="family"
+  
   style={{float:`right`}}
 />
 
