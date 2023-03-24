@@ -29,6 +29,7 @@ const Layout = ({ children }) => {
 
     <Helmet>
     <link rel="stylesheet" href="https://use.typekit.net/pmc5egq.css" />
+
     </Helmet>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div

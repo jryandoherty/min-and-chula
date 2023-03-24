@@ -146,25 +146,25 @@ const IndexPage = () => (
 <h2>Outdoor activities:</h2>
 
   <div className="link-sub">
-    <Link to="https://www.rei.com/learn/expert-advice/camping-kids.html" target="_blank"><StaticImage src="../images/rei-coop.png" alt="REI" imgStyle={{maxWidth:`150px`}}/><div>Camping with Kids</div></Link>
+    <Link to="https://www.rei.com/learn/expert-advice/camping-kids.html" target="_blank"><StaticImage src="../images/rei-coop.png" alt="REI" imgStyle={{maxWidth:150}}/><div>Camping with Kids</div></Link>
 
-    <Link to="https://merlin.allaboutbirds.org/" target="_blank"><StaticImage src="../images/cornell.png" alt="Merlin" imgStyle={{maxWidth:`150px`}}/><div>Learn Bird Idenfication</div></Link>
+    <Link to="https://merlin.allaboutbirds.org/" target="_blank"><StaticImage src="../images/cornell.png" alt="Merlin" imgStyle={{maxWidth:150}}/><div>Learn Bird Idenfication</div></Link>
 
-    <Link to="https://inaturalist.org" target="_blank"><StaticImage src="../images/inaturalist.png" alt="iNaturalist" imgStyle={{maxWidth:`150px`}}/><div>Record your observations</div></Link>
+    <Link to="https://inaturalist.org" target="_blank"><StaticImage src="../images/inaturalist.png" alt="iNaturalist" imgStyle={{maxWidth:150}}/><div>Record your observations</div></Link>
 
-    <Link to="https://www.outwardbound.org" target="_blank"><StaticImage src="../images/outwardbound.png" alt="Outward Bound" imgStyle={{maxWidth:`150px`}}/><div>Outward Bound</div></Link>
+    <Link to="https://www.outwardbound.org" target="_blank"><StaticImage src="../images/outwardbound.png" alt="Outward Bound" imgStyle={{maxWidth:150}} /><div>Outward Bound</div></Link>
 
   </div>{/* end outdoor  */ }
 
 <h2>How the outdoors benefits kids:</h2>
   <div className="link-sub">
-    <Link to="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/youth-engagement/benefits-of-outdoors-for-kids/" target="_blank"><StaticImage src="../images/natureconservancy.png" alt="Nature Conservancy" imgStyle={{maxWidth:`150px`}}/><div>Getting kids outside</div></Link>
+    <Link to="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/youth-engagement/benefits-of-outdoors-for-kids/" target="_blank"><StaticImage src="../images/natureconservancy.png" alt="Nature Conservancy" imgStyle={{maxWidth:150}}/><div>Getting kids outside</div></Link>
 
-    <Link to="https://www.scholastic.com/parents/family-life/parent-child/why-kids-need-nature.html" target="_blank"><StaticImage src="../images/scholastic.png" alt="Schoolastic" imgStyle={{maxWidth:`150px`}}/><div>Why Kids Need Nature</div></Link>
+    <Link to="https://www.scholastic.com/parents/family-life/parent-child/why-kids-need-nature.html" target="_blank"><StaticImage src="../images/scholastic.png" alt="Schoolastic" imgStyle={{maxWidth:150}}/><div>Why Kids Need Nature</div></Link>
 
-    <Link to="https://www.outdoors.org/resources/amc-outdoors/outdoor-resources/10-backyard-nature-activities-for-kids/" target="_blank"><StaticImage src="../images/amc.png" alt="Be Outdoors - AMC MTN Club" imgStyle={{maxWidth:`150px`}}/><div>10 Backyard Nature Activities for Kids</div></Link>
+    <Link to="https://www.outdoors.org/resources/amc-outdoors/outdoor-resources/10-backyard-nature-activities-for-kids/" target="_blank"><StaticImage src="../images/amc.png" alt="Be Outdoors - AMC MTN Club" imgStyle={{maxWidth:150}}/><div>10 Backyard Nature Activities for Kids</div></Link>
 
-    <Link to="https://www.pbs.org/parents/observing-nature" target="_blank"><StaticImage src="../images/pbs.png" alt="PBS kids" imgStyle={{maxWidth:`150px`}}/><div>Observing Nature</div></Link>
+    <Link to="https://www.pbs.org/parents/observing-nature" target="_blank"><StaticImage src="../images/pbs.png" alt="PBS kids" imgStyle={{maxWidth:150}}/><div>Observing Nature</div></Link>
 
   </div> {/* end outdoors for kids */ }
 
