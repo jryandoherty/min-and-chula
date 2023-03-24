@@ -135,7 +135,7 @@ const IndexPage = () => (
   </div>
 
   <div>
-    <h3> Helpful links from the National Park Service</h3>
+    <h2> Helpful links from the National Park Service</h2>
     <Link to="https://www.nps.gov/orpi/index.htm" target="_blank">Organ Pipe Cactus National Park</Link><br/>
     <Link to="https://www.nps.gov/subjects/camping/camping-with-kids.htm" target="_blank">Camping with Kids (from NPS)</Link><br/>
     <Link to="https://www.nps.gov/findapark/index.htm" target="_blank">How to find national parks in your state</Link><br/>
