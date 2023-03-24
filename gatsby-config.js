@@ -16,15 +16,7 @@ module.exports = {
 
 
   plugins: [
-    { // this must be loaded first in order to work
-         resolve: `gatsby-plugin-google-gtag`, // note this instead of gatsby-plugin-react-helmet
-         options: {
-           trackingId: "G-XW403YE79Z",
-           head: true, // note this is TRUE and not FALSE as listed in other examples above
-           anonymize: true
-         }
-       },
-
+  
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
