@@ -137,9 +137,9 @@ const IndexPage = () => (
   <div>
     <h2> Helpful links from the National Park Service</h2>
     <Link to="https://www.nps.gov/orpi/index.htm" target="_blank">Organ Pipe Cactus National Park</Link><br/>
-    <Link to="https://www.nps.gov/subjects/camping/camping-with-kids.htm" target="_blank">Camping with Kids (from NPS)</Link><br/>
+    <Link to="https://www.nps.gov/subjects/camping/camping-with-kids.htm" target="_blank">Camping with Kids</Link><br/>
     <Link to="https://www.nps.gov/findapark/index.htm" target="_blank">How to find national parks in your state</Link><br/>
-    <Link to="https://www.nps.gov/subjects/camping/campground.htm" target="_blank">Finding a campground from NPS</Link><br/>
+    <Link to="https://www.nps.gov/subjects/camping/campground.htm" target="_blank">Finding a campground</Link><br/>
   </div>
 </div>{/* end nps section */ }
 
@@ -148,7 +148,7 @@ const IndexPage = () => (
   <div className="link-sub">
     <Link to="https://www.rei.com/learn/expert-advice/camping-kids.html" target="_blank"><StaticImage src="../images/rei-coop.png" alt="REI" imgStyle={{maxWidth:150}}/><div>Camping with Kids</div></Link>
 
-    <Link to="https://merlin.allaboutbirds.org/" target="_blank"><StaticImage src="../images/cornell.png" alt="Merlin" imgStyle={{maxWidth:150}}/><div>Learn Bird Idenfication</div></Link>
+    <Link to="https://merlin.allaboutbirds.org/" target="_blank"><StaticImage src="../images/cornell.png" alt="Merlin" imgStyle={{maxWidth:150}}/><div>Learn Bird identification</div></Link>
 
     <Link to="https://inaturalist.org" target="_blank"><StaticImage src="../images/inaturalist.png" alt="iNaturalist" imgStyle={{maxWidth:150}}/><div>Record your observations</div></Link>
 

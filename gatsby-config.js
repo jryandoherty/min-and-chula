@@ -9,7 +9,7 @@ module.exports = {
 
   developMiddleware: (app) => {
       app.use((req, res, next) => {
-        res.set('X-Frame-Options', 'ALLOW-FROM https://jryandoherty.com');
+        res.set('X-Frame-Options', 'ALLOW');
         next();
       });
     },
@@ -17,7 +17,7 @@ module.exports = {
 
   plugins: [
 
-    
+
 
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
