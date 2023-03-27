@@ -603,14 +603,16 @@ pre tt:after {
 
 
 header {
-  background:url(../images/stars-moon.png)no-repeat 10%,url(../images/stars.png)no-repeat 90%, linear-gradient(#1b4f6f 75%, #905cc5) ;
+  background:url(../images/stars-moon-2.png)no-repeat 10%/400px,url(../images/stars.png)no-repeat 90%/400px, linear-gradient(#1b4f6f 70%, #905cc5) ;
   padding:10px 0;
+
+
   /*box-shadow: 2px 24px 90px #333;*/
 }
 
 @media (max-width:480px){
   header {
-    background-position: top;
+    background-position: 5% top, 100% top;
   }
 }
 
@@ -822,7 +824,7 @@ nav a:last-child:hover {
 
 
 #bio {
-  background:url(../images/cactus.png)no-repeat center bottom;
+  background:url(../images/cactus.svg)no-repeat center bottom;
 }
 
 .bio-photos img{
