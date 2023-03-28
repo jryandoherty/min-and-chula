@@ -10,18 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
-import TagManager from "react-gtm-module"
-
 
 import Header from "./header"
 import "./layout.css"
-
-
-const tagManagerArgs = {
-  gtmId: 'G-XW403YE79Z'
-}
-
-TagManager.initialize(tagManagerArgs)
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

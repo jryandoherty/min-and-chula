@@ -6,10 +6,30 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Sticker from "../components/sticker"
 
+const injectGA = () => {
+  if (typeof window == 'undefined') {
+    return;
+  }
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-XW403YE79Z');
+};
+
 const IndexPage = () => (
 
 <Layout>
 <Seo title="Home" />
+
+{/* Global site tag (gtag.js) - Google Analytics */}
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"
+    />
+    <script>{injectGA()}</script>
 
 <div style={{
   maxWidth: 1170,
