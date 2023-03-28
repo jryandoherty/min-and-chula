@@ -27,7 +27,7 @@ const IndexPage = () => (
 {/* Global site tag (gtag.js) - Google Analytics */}
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"
+      src="https://www.googletagmanager.com/gtag/js?id=G-XW403YE79Z"
     />
     <script>{injectGA()}</script>
 
