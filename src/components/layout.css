@@ -87,9 +87,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: "canvas-script", sans-serif;
-font-weight: 200;
-font-style: normal;
+  font-style: normal;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 4.25rem;
@@ -748,6 +746,8 @@ h1  {
   color:#234f4c;
   text-align:center;
   font-size: 3.75rem;
+  font-family: "canvas-script", sans-serif;
+font-weight: 200;
 }
 
 @media (max-width:480px){
@@ -885,6 +885,9 @@ nav a:last-child:hover {
 @media (max-width:990px){
   #bio {
     padding:0 10%
+  }
+  .amazonLink {
+    text-align: center;
   }
 }
 

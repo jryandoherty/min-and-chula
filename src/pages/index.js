@@ -35,13 +35,12 @@ const IndexPage = () => (
   maxWidth: 1170,
   padding: `0 1.0875rem 1.45rem`,
   margin: `0 auto`,
-  background:`url()no-repeat`,
 }}>
 
 
 <div className="top-section">
 
-    <Link to="https://www.amazon.com/dp/B0BZ9X9YR6/ref=sr_1_1?keywords=nahyon+lee&qid=1679534170&sr=8-1" target="_blank">
+    <Link to="https://www.amazon.com/dp/B0BZ9X9YR6/ref=sr_1_1?keywords=nahyon+lee&qid=1679534170&sr=8-1" className="amazonLink" target="_blank">
     <StaticImage
       src="../images/book-cover.png"
       width={500}

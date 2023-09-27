@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Min and the Dancing Cactus`,
-    description: `The adventures of Min and Chula.`,
+    description: `The adventures of Min and Chula, a new children's book by Nahyon Lee and Marshall Iliff`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://minandchula.com/`,
   },
 
 
